@@ -14,6 +14,4 @@ public class JobDTO
     [StringLength(500, ErrorMessage = "La Descripción no puede exceder los 500 caracteres.")]
     public string? Description { get; set; }
 
-    public bool Completed { get; set; }
-
 }
